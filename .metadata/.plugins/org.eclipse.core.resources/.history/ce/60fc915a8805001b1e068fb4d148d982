@@ -1,0 +1,20 @@
+package rewievclass;
+
+public class season {
+
+	public static void main(String[] args) {
+		 
+		// string equality
+		
+		String str1="Adam" ;
+		String str2="Adam";
+		
+		//checking the content of str1 and str2 equals or not
+		// we use equals method
+		boolean isSame = str1.equals(str2) ;
+		
+		System.out.println( isSame);
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package day27_Arrays_Part4;
+
+import java.util.Arrays;
+
+public class Pizza_2DArray {
+
+	public static void main(String[] args) {
+	
+
+		String[][] pizzas = {
+				
+				{"pinneapple","pepperoni"}, //row-0
+				{"anchovies","mushroom","olives"}, //row-1
+				{"4 cheese"},
+				{"chicken","tomatoes","onioons"},
+				{"green peppers","zuccini","brocoli","spinach","shrimp"}
+		};
+		
+		System.out.println(Arrays.toString(pizzas[0]));
+		
+		for(String[] pizza : pizzas) {
+			System.out.print(pizza.length + "-");
+			System.out.println(Arrays.toString(pizza));
+		}
+	}
+}

@@ -1,0 +1,27 @@
+package rewievclass;
+
+import java.util.Scanner;
+public class scannerpractice {
+
+	public static void main(String[] args) {
+		
+
+		  // craeting a Scanner object
+		Scanner scan= new Scanner(System.in);
+		
+		// ask question so user know to enter 
+		
+		System.out.println("Enter number 1");
+		int num1= scan.nextInt();  //10
+	 
+		
+		System.out.println("YOU HAVE ENTERED NUM1 AS:" + num1);
+		
+		System.out.println("Enter number 2 :");
+		int num2= scan.nextInt();
+		
+		System.out.println(" You have entered num2 as:" + num2);
+	}    
+	
+
+}

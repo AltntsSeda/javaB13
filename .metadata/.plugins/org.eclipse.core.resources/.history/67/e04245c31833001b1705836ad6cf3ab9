@@ -1,0 +1,25 @@
+package repl_itQuestions;
+
+public class Question91 {
+
+	public static void main(String[] args) {
+		
+		/*
+		 * char myChar= 'a';
+		System.out.println(myChar);
+		System.out.println(++myChar);
+		System.out.println(++myChar);
+		System.out.println(--myChar);
+		System.out.println(--myChar);
+		*/
+
+		for(char myChar='z'; myChar>='v';myChar--) {
+			
+			for(char myChar2='z'; myChar>='v';myChar2--) {
+			
+				System.out.println(myChar + "" + myChar2);
+		}
+		// for(char myChar='a'; myChar>='z';myChar++) {
+	}
+
+}

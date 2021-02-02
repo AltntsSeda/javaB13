@@ -1,0 +1,43 @@
+package rewievclass;
+import java.util.Scanner;
+public class SeasonCodePracticeWithScanner {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	// Scanner scan= new Scanner(System.in);
+	//System.out.println("ENTER SEASON CODE: 1,2,3 OR 4 :  ");
+		
+		Scanner blabla= new Scanner(System.in) ;
+		System.out.println("what is the season?");
+		
+		String season = blabla.next() ;
+	//	int seasonCode = scan.nextInt() ; // 1,2,3,4
+	    // 1 : Spring   2: Summer  3 : Fall  4 : Winter 
+	    
+	    switch(season) {
+	    
+	      case "spring" :
+	        System.out.println("Spring");
+	        break ; // this is or breaking out of the switch statement
+	      case "Summer" : 
+	        System.out.println("Summer");
+	        break ; 
+	      case "Fall" : 
+	      case "aUTUMN" :
+	        System.out.println("Fall");
+	        break; 
+	      case "WINTER" : 
+	        System.out.println("Winter");
+	        break; 
+	    
+	      default :
+	       System.out.println ("KEEP GOING!!!!");
+	       // This is optional here because this is the last line of switch anyway
+	       break;​
+	    }
+	    
+	​
+	  }
+	​}
+

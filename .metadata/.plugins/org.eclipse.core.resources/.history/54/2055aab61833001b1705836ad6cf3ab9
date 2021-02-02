@@ -1,0 +1,17 @@
+package repl_itQuestions;
+
+public class Question91 {
+
+	public static void main(String[] args) {
+		
+		char myChar= 'a';
+		System.out.println(myChar);
+		System.out.println(++myChar);
+		System.out.println(++myChar);
+		System.out.println(--myChar);
+		System.out.println(--myChar);
+		
+
+	}
+
+}

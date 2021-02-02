@@ -1,0 +1,47 @@
+package rewievclass;
+
+public class eXAMPLE {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	// ANYTING that ternary operator can do, if else statement can do it!!!
+		
+		String am0Rpm = " " ;
+	    int hour = 15;
+		
+		if (hour>12) {
+			am0Rpm= "PM" ;
+			
+		} else { 
+			am0Rpm= "AM" ;
+			
+		}
+		
+		//SYNTAX for ternary operator
+		//Datatype variableName= (condition here) ? IfTrueAssignThis: IfFalseAssignThis;
+		// SString am0Rpm = (hour>12)  ? "PM"   : "AM" ;
+		
+		// Adding LESS THAN 24 FOR CONDITION
+		
+		String am0Rpm = (hour>12 && hour<24)? "PM" : "AM";
+		System.out.println("It is" + am0Rpm);
+		
+		int num1= 10;
+		int num2= 20;
+		// if then num1 is more then num2 assign bigger number to num1
+		// else assign bigger number to num2
+		int biggerNumber= 0;
+	//		if (num1>num2) {
+	//	biggerNumber= num1;
+		
+//	}else {
+		
+	//	biggerNumber=num2;
+		
+		biggerNumber = (num1>num2) ? num1 : num2;
+		System.out.println("BIGGER NUMBER IS " + biggerNumber);
+			
+	}
+
+}
